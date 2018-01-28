@@ -56,7 +56,7 @@ class TaxonomyComponents {
 
     // get related component
     $targetId = Term::load($object->tid)->field_content->target_id;
-    $tree[$object->tid]->Content = Node::load($targetId);
+    $tree[$object->tid]->Content = Node::load($targetId)->toArray();
 
     /*
     foreach ($targetField as $item) {
