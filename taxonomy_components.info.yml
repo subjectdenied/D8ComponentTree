@@ -1,0 +1,4 @@
+name: Taxonomy Components
+description: Utility for loading terms in a tree, using it as Component tree with data by entity (node) reference
+core: 8.x
+type: module

@@ -1,0 +1,4 @@
+services:
+  taxonomy_components:
+    class: Drupal\taxonomy_components\TaxonomyComponents
+    arguments: ['@entity_type.manager']
